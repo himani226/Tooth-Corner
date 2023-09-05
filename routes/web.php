@@ -1,18 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AppointmentController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Route::get('/book', [AppointmentController::class, 'create']);
+Route::post('/book', [AppointmentController::class, 'store']);
+Route::get('/admin', [AppointmentController::class, 'index']);
+Route::get('/admin/confirm/{id}', [AppointmentController::class, 'confirm']);
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
