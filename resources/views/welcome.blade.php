@@ -133,17 +133,22 @@
                         <h5 class="position-relative d-inline-block text-primary text-uppercase">About Us</h5>
                         <h1 class="display-5 mb-0">The World's Best Dental Clinic That You Can Trust</h1>
                     </div>
-                    <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <h4 class="text-body fst-italic mb-4">
+                    With a team of highly qualified dental surgeons and state-of-the-art technology, we specialize in all the basic & latest dental procedures</h4>
+                    <p class="mb-4">At Tooth Corner, we're more than just a dental clinic—we're a sanctuary for smiles. 
+                        Located at the heart of Sector 86 Mohali, we're committed to providing you and your loved ones with exceptional 
+                        dental care in a compassionate and friendly atmosphere. Whether you're coming in for a simple checkup or a more
+                         complex treatment regimen, our dedicated team has the skills and resources to manage all your dental 
+                         health needs. We can't wait to help you feel better, smile brighter, and live healthier.</p>
                     <div class="row g-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Award Winning</h5>
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Professional Staff</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>24/7 Opened</h5>
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Fair Prices</h5>
-                        </div>
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.9s">
+                        <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Advanced Technology</h5>
+                        <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Child-Friendly</h5>
+                    </div>
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="1.2s">
+                        <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Emergency Services</h5>
+                        <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Fair Prices</h5>
+                    </div>
                     </div>
                     <a href="appointment.html" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Make Appointment</a>
                 </div>
@@ -164,12 +169,12 @@
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
                     <div class="py-5">
-                        <h1 class="display-5 text-white mb-4">We Are A Certified and Award Winning Dental Clinic You Can Trust</h1>
+                        <h1 class="display-5 text-white mb-4">What Makes Us Different</h1>
                         <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
+                    <!-- <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Make Appointment</h1>
                         <form>
                             <div class="row g-3">
@@ -214,7 +219,7 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -509,7 +514,7 @@
 
 
     <!-- Newsletter Start -->
-    <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
+    <!-- <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
         <div class="container">
             <div class="bg-primary p-5">
                 <form class="mx-auto" style="max-width: 600px;">
@@ -520,6 +525,6 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Newsletter End -->
     @endsection
