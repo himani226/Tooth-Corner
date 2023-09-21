@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
+    --primary: #05beda;
     --secondary: #F57E57;
     --light: #EEF9FF;
-    --dark: #091E3E;
+    --dark: #1b3474;
 }
 
 h1,
@@ -102,7 +102,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Jost', sans-serif;
-    padding: 35px 15px;
+    padding: 40px 15px;
     font-size: 18px;
     color: var(--dark);
     outline: none;
